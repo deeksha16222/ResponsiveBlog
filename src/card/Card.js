@@ -1,9 +1,10 @@
 import React from "react";
-import { Box, CardMedia, CardContent, Typography } from "@mui/material";
+import { Box, CardMedia, CardContent, Link, Typography } from "@mui/material";
 
 const Card = ({cardImage}) => {
   return (
     <Box>
+    <Link href="http://localhost:3001/details" sx={{textDecoration:"none"}}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -31,6 +32,7 @@ const Card = ({cardImage}) => {
           species, ranging across all continents except Antarctica
         </Typography>
       </CardContent>
+      </Link>
     </Box>
   );
 };
