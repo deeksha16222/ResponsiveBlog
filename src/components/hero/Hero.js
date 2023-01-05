@@ -21,6 +21,7 @@ const Hero = () => {
           height: 600,
           width: "100%",
           display: "flex",
+          backgroundAttachment: "fixed",
           justifyContent: "center",
         }}
       >
