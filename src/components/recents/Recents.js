@@ -7,9 +7,12 @@ import image3 from "../../static/image3.jpg"
 const Recents = () => {
   return (
     <Box>
-    <Grid container>
-    <Grid item md={6} xs={12}><Card cardImage={image3}/></Grid>
-    <Grid item md={3} xs={12} sx={{background:"green"}}>Item3</Grid>
+    <Grid container rowSpacing={1} columnSpacing={1}>
+    <Grid item><Card cardImage={image3}/></Grid>
+    <Grid item xs={6}><Card cardImage={image3}/></Grid>
+    <Grid item xs={6}><Card cardImage={image3}/></Grid>
+    <Grid item xs={6}><Card cardImage={image3}/></Grid>
+    <Grid item xs={6}><Card cardImage={image3}/></Grid>
     </Grid>
     </Box>
   )
