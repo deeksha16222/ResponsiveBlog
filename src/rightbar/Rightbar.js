@@ -19,7 +19,6 @@ const Rightbar = () => {
   return (
     <Box>
       <Typography align="center" bgcolor={"black"} color="white">
-        {" "}
         Most Popular
       </Typography>
       <List
@@ -33,43 +32,48 @@ const Rightbar = () => {
         <ListItem alignItems="flex-end">
           <ListItemAvatar>
             <Avatar
-              sx={{ height: 80, weight: 80 }}
+              sx={{ height: 80, width: 80 }}
               variant="square"
               alt="Remy Sharp"
               src={image1}
             />
           </ListItemAvatar>
-          <ListItemText secondary={"I will be in your neighbourhood"} />
+          <ListItemText
+            secondary={"I'll be in your neighborhood doing errands this…"}
+          />
         </ListItem>
         <ListItem alignItems="flex-end">
           <ListItemAvatar>
             <Avatar
-              sx={{ height: 80, weight: 80 }}
+              sx={{ height: 80, width: 80 }}
               variant="square"
               alt="Remy Sharp"
               src={image2}
             />
           </ListItemAvatar>
-          <ListItemText secondary={"I will be in your neighbourhood"} />
+          <ListItemText
+            secondary={"I'll be in your neighborhood doing errands this…"}
+          />
         </ListItem>
         <ListItem alignItems="flex-end">
           <ListItemAvatar>
             <Avatar
-              sx={{ height: 80, weight: 80 }}
+              sx={{ height: 80, width: 80 }}
               variant="square"
               alt="Remy Sharp"
-              src={image4}
+              src={image3}
             />
           </ListItemAvatar>
-          <ListItemText secondary={"I will be in your neighbourhood"} />
+          <ListItemText
+            secondary={"I'll be in your neighborhood doing errands this…"}
+          />
         </ListItem>
-        <Divider variant="insert" component={"li"} />
+        <Divider variant="inset" component={"li"} />
       </List>
       <Typography align="center" bgcolor={"black"} color="white">
-        {" "}
         About Us
       </Typography>
-      <Card cardImage={image2} />
+      <Card cardImage={image4} />
     </Box>
   );
 };

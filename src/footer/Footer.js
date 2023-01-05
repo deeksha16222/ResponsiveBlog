@@ -22,13 +22,13 @@ const Footer = () => {
             Contact Us
           </Typography>
           <Typography color={"white"} align={"center"}>
-            Feel free to contact us at our social
+            Feel free to contact 
           </Typography>
           <Typography color={"white"} align={"center"}>
-            media handles
+          us at our social media 
           </Typography>
           <Typography color={"white"} align={"center"}>
-            anytime
+          handles anytime
           </Typography>
         </Box>
         <Box flex={1}>
